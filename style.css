@@ -81,11 +81,16 @@ img {
    }
 
    body{
-      font-size: 2em;
+      font-size: 0.8em;
+   }
+
+   img {
+     height: 80px;
    }
 
    .row {
      margin-top: 0;
+     width: 100vw;
    }
 
    .container.grey {
@@ -129,13 +134,19 @@ img {
 
    #why .row hr{
       background-color: #727272;
-      height: 5px;
+      height: 3px;
    }
 
    #why .row>.first,
    #why .row>.second,
    #why .row>.third {
      width: 100%;
-     margin-top: 40px;
+     margin-top: 20px;
+   }
+
+   #why .row img {
+     background-color: #428bca;
+     border-radius: 50%;
+     padding: 10px
    }
 }
