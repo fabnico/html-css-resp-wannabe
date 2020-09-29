@@ -88,6 +88,9 @@ img {
      margin-top: 0;
    }
 
+   .container.grey {
+     background-color: transparent;
+   }
 
    #lezioni .row{
       background-color: #F2F2CD;
@@ -97,6 +100,21 @@ img {
    #lezioni .row>.right {
      width: 100%;
      float: none;
+   }
+
+   #lezioni .row .right img {
+      margin-top: 20px;
+   }
+
+   #steps .row>.left,
+   #steps .row>.central,
+   #steps .row>.right {
+     float: none;
+     width: 100%;
+   }
+
+   #steps .row h1{
+      padding-top: 20px;
    }
 
 
