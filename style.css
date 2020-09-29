@@ -94,6 +94,7 @@ img {
 
    #lezioni .row{
       background-color: #F2F2CD;
+      padding: 20px 0;
    }
 
    #lezioni .row>.left,
@@ -102,7 +103,7 @@ img {
      float: none;
    }
 
-   #lezioni .row .right img {
+   #lezioni .row img {
       margin-top: 20px;
    }
 
@@ -113,15 +114,28 @@ img {
      width: 100%;
    }
 
-   #steps .row h1{
-      padding-top: 20px;
+   #steps .row{
+      padding: 20px 0;
    }
 
+   #steps .row img {
+      margin-top: 20px;
+   }
 
+   #why .row{
+      background-color: #F2F2CD;
+      padding: 20px 0;
+   }
 
+   #why .row hr{
+      background-color: #727272;
+      height: 5px;
+   }
 
-
-
-
-
+   #why .row>.first,
+   #why .row>.second,
+   #why .row>.third {
+     width: 100%;
+     margin-top: 40px;
+   }
 }
